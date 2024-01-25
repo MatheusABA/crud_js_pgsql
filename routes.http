@@ -1,0 +1,29 @@
+POST http://localhost:3333/videos
+Content-type: application/json
+
+
+{
+    "title": "Video 1",
+    "description": "Harry Potter",
+    "duration": 180
+}
+
+
+###
+GET http://localhost:3333/videos
+ 
+
+###
+PUT http://localhost:3333/videos/5bbb41ea-e1e8-42cc-afc0-044627de69bf
+Content-type: application/json
+
+
+{
+    "title": "Video 2",
+    "description": "Harry Potter",
+    "duration": 180
+}
+
+
+###
+DELETE http://localhost:3333/videos/afb1efbe-5736-4d53-8885-4572d6a58c8f
