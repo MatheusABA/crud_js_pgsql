@@ -62,5 +62,6 @@ server.delete('/videos/:id', async (request, reply) => {
 
 // Servidor ativo
 server.listen({
+    host: '0.0.0.0' ?? localhost,
     port: process.env.PORT ?? 3333, // Vai rodar na porta .env, senao, porta 3333
 })
